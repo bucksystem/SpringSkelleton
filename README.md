@@ -1,8 +1,23 @@
 SpringSkelleton
 ===============
-
 A little spring skelleton for initialize spring apps, I use this build.gradle file to init my spring apps.
 
+
+Build on Terminal
+===============
+gradle build - This will download all the necessary sources and librarys
+
+Directory structure:
+===============
+```
+|----src
+   |----main
+      |----java
+         |----(package)
+```
+
+Licence
+===============
 ```
 
    Copyright 2014 Leonardo Rossetto <leonardoxh@gmail.com>
