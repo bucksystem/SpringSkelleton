@@ -5,9 +5,11 @@ A little spring skelleton for initialize spring apps, I use this build.gradle fi
 
 Build on Terminal
 ===============
+```
 gradle build - This will download all the necessary sources and librarys
 gradle eclipse - This will generate eclipse meta data
 java -jar build/libs/{jar.name} - This will run the project (same as eclipse run)
+```
 
 Directory structure:
 ===============
