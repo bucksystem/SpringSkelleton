@@ -14,6 +14,9 @@ Directory structure:
    |----main
       |----java
          |----(package)
+      |----resources
+         |----templates
+            |----(templates.html)
 ```
 
 Licence
