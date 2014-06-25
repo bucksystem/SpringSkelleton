@@ -1,20 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'spring-boot'
+
 buildscript {
     repositories {
         mavenCentral()
     }
     dependencies {
-        classpath "org.springframework.boot:spring-boot-gradle-plugin:1.0.2.RELEASE"
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:+"
     }
 }
-
-apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'spring-boot'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compile "org.springframework.boot:spring-boot-starter-web:1.0.2.RELEASE"
+    compile "org.springframework.boot:spring-boot-starter-web:+"
 }
