@@ -1,6 +1,7 @@
 SpringSkelleton
 ===============
 A little spring skelleton for initialize spring apps, I use this build.gradle file to init my spring apps.
+Copy the build.gradle that you need and modify it as you need.
 
 
 Build on Terminal
