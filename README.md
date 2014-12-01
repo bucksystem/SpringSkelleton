@@ -8,7 +8,9 @@ Build on Terminal
 ```
 gradle build - This will download all the necessary sources and librarys
 gradle eclipse - This will generate eclipse meta data
-java -jar build/libs/{jar.name} - This will run the project (same as eclipse run)
+gradle bootRun - This will run the project too
+gradle war - This will generate the WAR for tomcat run
+gradle wrapper - This will generate a gradle 2.2.1 wrapper based (high recommended)
 ```
 
 Directory structure:
