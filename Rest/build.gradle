@@ -4,17 +4,29 @@ apply plugin: 'spring-boot'
 
 buildscript {
     repositories {
+        mavenLocal()
         mavenCentral()
     }
+
     dependencies {
-        classpath "org.springframework.boot:spring-boot-gradle-plugin:+"
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.1.9.RELEASE")
     }
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
+configurations {
+    providedRuntime
+}
+
 dependencies {
-    compile "org.springframework.boot:spring-boot-starter-web:+"
+    providedRuntime("org.springframework.boot:spring-boot-starter-tomcat:1.1.9.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-web:1.1.9.RELEASE")
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.2.1'
 }
